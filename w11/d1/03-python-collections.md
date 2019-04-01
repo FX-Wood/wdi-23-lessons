@@ -90,10 +90,13 @@
 - We use _square brackets_ to get and set an item's value:
 
 	```python
+	student['name'] = 'Fred'
 	name = student['name']
 	print(name)
 	> Fred
+	
 	student['name'] = 'Tina'
+	name = student['name']
 	print(name)
 	> Tina
 	```
